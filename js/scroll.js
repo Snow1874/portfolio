@@ -1,4 +1,5 @@
-$(function(){
+(function($){
+  $(function(){
     // #で始まるリンクをクリックしたら実行されます
     $('a[href^="#"]').click(function() {
         // スクロールの速度
@@ -10,3 +11,4 @@ $(function(){
         return false;
       });
 })
+})(jquery);

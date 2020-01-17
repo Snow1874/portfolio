@@ -1,4 +1,5 @@
-$(function(){
+(function($){
+  $(function(){
     var _window = $(window),
     _header = $('.site-header'),
     heroBottom;
@@ -14,4 +15,5 @@ _window.on('scroll',function(){
 });
  
 _window.trigger('scroll');
-});
+});  
+})(jquery);
