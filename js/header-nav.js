@@ -16,4 +16,4 @@ _window.on('scroll',function(){
  
 _window.trigger('scroll');
 });  
-})(jquery);
+});
