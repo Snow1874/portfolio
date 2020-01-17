@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My portfolio</title>
+    <link rel="stylesheet" media="all" href="scss/style.css">
+    <script src="https://kit.fontawesome.com/701206d56b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/fontawsome/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header id="top-head">
+    <div class="inner">
+        <div id="mobile-head">
+            <div id="nav-toggle">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <nav id="global-nav" >
+            <ul class="flex">
+                <li><a href="#1">HOME</a></li>
+                <li><a href="#2">ABOUT</a></li>
+                <li><a href="#3">SKILL</a></li>
+                <li><a href="#4">WORK</a></li>
+                <li><a href="#5">BLOG</a></li>
+                <li><a href="#6">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!--header-->
+
+<!--<header class="site-header">
+    <div class="site-header-container">
+        <nav class="nav-links">
+            <ul class="nav-items">
+                <li class="nav-item"><a class="nav-link" href="#1">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#2">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#3">SKILL</a></li>
+                <li class="nav-item"><a class="nav-link" href="#4">WORK</a></li>
+                <li class="nav-item"><a class="nav-link" href="#5">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="#6">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>-->
+<div id="1" class="header header-bg">
+
+    <div id="header-container">
+        <h1 class="header-name">
+            <span>Sunao</span>
+            <br>
+            <span>Okamoto</span>
+        </h1>
+        <p class="header-desc">Web Engineer</p>
+    </div>      
+</div>
+
+<main>
+    <!---ABOUT-->
+    <section id="2" class="about main-contents">
+        <div class="about-left">
+            <div class="title">
+                <h1 class="about-title">About</h1>
+            </div>
+                <a class="about-picture" href="">
+                    <img class="profile-pic" src="img/profile.JPG" alt="">
+                    <!--<div class="profile-more-desc">Read more</div>-->
+                </a>
+        </div>
+        <div class="about-right">
+            <div class="about-profile">
+                <p class="profile-name-en">Sunao Okamoto</p>
+                <p class="profile-name-ja">岡本 素</p>
+                <p class="position">Web Engineer</p>
+                <p class="sns">
+                    <a class="sns-item" href="facebook.com/sunao.okamoto.18">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a class="sns-item" href="https://twitter.com/Snow1815">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a class="sns-item" href="https://github.com/Snow1874">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="profile-desc">
+                <p>1993年静岡県生まれの26歳。</p>
+                <p>趣味はサッカーと旅行。</p>
+                <p>時間と場所にとらわれない働き方の実現のためエンジニアを目指すことを決意。</p>
+                <p>夢は「世界一周」</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Skill-->
+    
+    <section id="3" class="skill flex main-contents">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1 class="skill-title">Skill</h1>
+                    <div class="title-line"></div>
+                 </div>
+                 
+                <div class="skill-contents">
+                        <div class="skill-content">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="far fa-file-code"></i></div>
+                            <h2 class="skill-title">HTML/CSS</h2>
+                                <p class="skill-desc">HTML/CSSを使ってコーディングができます。レスポンシブ対応も可能です。</p>
+                            </div>
+                        </div>
+                        <div class="skill-content">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                                <h2 class="skill-title">jQuery</h2>
+                                <p class="skill-desc">jQueryを実装することができます。</p>
+                            </div>
+                        </div>
+                        <div class="skill-content">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-wordpress-simple"></i></div>
+                                <h2 class="skill-title">Wordpress</h2>
+                                <p class="skill-desc">Wordpressを利用してWebサイトの構築をすることができます。</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!---WORK-->
+    <section id="4" class="work main-contents">
+        <div class="title">
+            <h1 class="work-title">Work</h1>
+            <div class="title-line"></div>
+        </div>        
+
+        <div class="container">
+            <div class="portfolio-menu">
+                <ul class="flex">
+                    <li class="active" data-filter="*">ALL</li>
+                    <li data-filter=".lp">LANDING PAGE</li>
+                    <li data-filter=".hp">HOME PAGE</li>
+                    <li data-filter=".app">APPRECATION</li>
+                </ul>
+            </div>
+
+            <div class="pf-items flex">
+                <div class="pf-item item-rakuten item lp">
+                    <a href="img/rakuten-lity.png" data-lightbox="fuga" data-title="portfolio">
+                        <img class="item-image" src="img/Rakuten-copy.png" alt="">
+                        <div class="mask">
+                            <div class="caption">
+                                <span class="caption-desc">模写</span>
+                                <br>楽天
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="pf-item item-cou item hp">
+                    <a href="img/cou-lity.png" data-lightbox="fuga" data-title="portfolio">
+                        <img class="item-image" src="img/cou_top.png" alt="">
+                        <div class="mask">
+                            <div class="caption">
+                                <span class="caption-desc">wordpress</span>
+                                <br>企業コーポレートサイト
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="pf-item item-pf item hp">
+                    <a href="img/portfolio-lity.png" data-lightbox="fuga" data-title="portfolio">
+                        <img class="item-image" src="img/portfolio_top.png" alt="">
+                        <div class="mask">
+                            <div class="caption">
+                                <span class="caption-desc">web制作</span>
+                                <br>ポートフォリオサイト
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="pf-item item-app item app">
+                    <a href="" data-lightbox="fuga" data-title="portfolio">
+                        <img class="item-image" src="img/twitter-292994_640.jpg" alt="">
+                        <div class="mask">
+                            <div class="caption">
+                                <span class="caption-desc">Coming soon</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+    
+            
+            
+        </div>
+       <!-- <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1 class="work-title">Work</h1>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="work-filter">
+                    <ul class="flex">
+                        <li data-filter="*" class="active work-tab"><a>ALL</a></li>
+                        <li data-filter=".lp" class="work-tab"><a>Landing Page</a></li>
+                        <li data-filter=".hp" class="work-tab"><a>Home Page</a></li>
+                        <li data-filter=".app" class="work-tab"><a>Apprecation</a></li>
+                    </ul>
+
+                </div>
+
+                <ul class="work-list flex">
+                        <li class="work-content lp">
+                        <a href=""><img class="work-img" src="img/Rakuten-copy.png" alt=""></a></li>
+
+                        <li class="work-content hp">
+                        <a href=""><img class="work-img" src="img/cou_top.png" alt=""></a></li>
+                        
+                        <li class="work-content hp">
+                        <a href=""><img class="work-img" src="img/portfolio_top.png" alt=""></a></li>
+
+                        <li class="work-content app">
+                        <a href=""><img class="work-img" src="img/twitter-292994_640.jpg" alt=""></a></li>
+                </ul>
+                
+                
+                    
+            
+                
+             <div class="work-contents flex">
+                    <a class="work-content" href="">
+                        <img class="work-img" src="img/Rakuten-pic.png" alt="">
+                        <div class="work-desc work-desc-landing">
+                            <span class="work-desc-name">Landing Page</span>
+                        </div>
+                     </a>
+                    <a class="work-content" href="">
+                        <img class="work-img" src="img/Corporate.png" alt="">
+                        <div class="work-desc work-desc-corporate">
+                            <span class="work-desc-name">Corporate page</span>
+                        </div>
+                    </a>
+                    <a class="work-content" href="">
+                        <img class="work-img" src="img/Portfolio-pic.png" alt="">
+                        <div class="work-desc work-desc-portfolio">
+                            <span class="work-desc-name">Portfolio</span>
+                        </div>
+                        
+                    </a>
+                    <a class="work-content" href="">
+                        <img class="work-img" src="img/apprecation.jpg" alt="">
+                        <div class="work-desc work-desc-application">
+                            <span class="work-desc-name">Web application</span>
+                        </div>
+                        
+                    </a>
+                </div>  
+            </div>
+        </div> -->
+    </section>
+
+    <!--Blog-->
+    <section id="5" class="blog flex main-contents">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1 class="work-title">Blog</h1>
+                    <div class="title-line"></div>
+                </div>
+                <div class="column">
+                    <div class="column-box flex">
+                    <a class="column-contents" href="https://bonaoblog.com/2020/01/07/start/">
+                        <div class="column-content">
+                            <img src="../Portfolio/img/freelance-man-working-on-his-laptop-picjumbo-com.jpg" alt="">
+                            <h3>エンジニアを目指すことになったきっかけ</h3>
+                            <p>2020.1.7</p>
+                        </div>
+                    </a>
+                    <a class="column-contents" href="https://bonaoblog.com/2019/04/05/life-change/">
+                        <div class="column-content">
+                            <img src="../Portfolio/img/city-of-prague-from-the-airplane-window-picjumbo-com.jpg" alt="">
+                            <h3>(ワーホリ・バックパッカー)海外に出れば人生は変わる？！？</h3>
+                            <p>2019.4.5</p>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <a class="read-more" href="https://bonaoblog.com/">
+                    <div class="read-more-box">
+                        <p>READ MORE</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>    
+
+    <!--Contact-->
+    <section id="6" class="contact flex main-contents">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1 class="work-title">contact</h1>
+                    <div class="title-line"></div>
+                </div>
+                <div class="form">
+                    <form class="form-contents" action="contact.php" method="POST">
+                        <p>お見積もり、お仕事のご依頼等こちらのフォームからお気軽にお問い合わせください。
+                            <br>
+                            原則、3営業日以内にはご連絡いたします。
+                        </p>
+                        <div class="form-inbox">
+                            <label class="form-label" for="name">お名前</label>
+                            <input class="form-input" name="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="form-inbox">
+                            <label class="form-label" for="email">メールアドレス</label>
+                            <input class="form-input" name="email" type="text" placeholder="E-mail">
+                        </div>
+                        <div class="form-inbox">
+                            <label class="form-label" for="message">お問い合わせ内容</label>
+                            <textarea class="form-textarea" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <input class="form-submit" type="submit" name="submit" value="送信">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-sns">
+            <a class="sns-item" href="facebook.com/sunao.okamoto.18">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a class="sns-item" href="https://twitter.com/Snow1815">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a class="sns-item" href="https://github.com/Snow1874">
+                <i class="fab fa-github-square"></i>
+            </a>
+        </div>
+        <div class="footer-copy">
+            <p>©Sunao Okamoto · All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/scroll-fade.js"></script>
+    <script>
+(function($) {
+    $(function() {
+        var $header = $('#top-head');
+        // Nav Fixed
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 350) {
+                $header.addClass('fixed');
+            } else {
+                $header.removeClass('fixed');
+            }
+        });
+        // Nav Toggle Button
+        $('#nav-toggle').click(function(){
+            $header.toggleClass('open');
+        });
+    });
+})(jQuery);
+</script>
+    <script src="js/header-nav.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+</body>
+</html>
+
+
