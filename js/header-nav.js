@@ -1,4 +1,4 @@
-(function($){
+
   $(function(){
     var _window = $(window),
     _header = $('.site-header'),
@@ -16,4 +16,4 @@ _window.on('scroll',function(){
  
 _window.trigger('scroll');
 });  
-});
+

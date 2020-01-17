@@ -1,4 +1,4 @@
-(function($){
+
   $(function(){
     // #で始まるリンクをクリックしたら実行されます
     $('a[href^="#"]').click(function() {
@@ -11,4 +11,4 @@
         return false;
       });
 })
-});
+

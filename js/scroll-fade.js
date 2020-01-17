@@ -1,4 +1,4 @@
-(function ($) {
+
   $(function(){
     var effect_pos = -100;//画面下からどの位置でフェードさせるか
     var effect_move = 200;//どのくらい要素を動かすか
@@ -45,4 +45,3 @@
 
   
   
-});
