@@ -388,9 +388,15 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem; }
 
-.profile-desc p {
-  font-family: fot-tsukuardgothic-std, sans-serif;
-  margin-bottom: 5px; }
+.profile-desc {
+  padding: 0 160px;
+  line-height: 2;
+  text-align: left; }
+  .profile-desc p {
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    margin-bottom: 5px; }
+  .profile-desc .dream {
+    text-align: center; }
 
 /*SKILL*/
 .skill {
