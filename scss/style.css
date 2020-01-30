@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
   font-size: 1rem;
   font-family: 'Roboto',serif;
@@ -383,7 +382,7 @@ h3 {
   width: 30px;
   height: 30px;
   color: #666;
-  margin-right: 10px; }
+  margin-right: 20px; }
 
 .profile-name-en {
   font-family: 'Poppins', sans-serif;
@@ -512,7 +511,7 @@ h3 {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(248, 145, 86, 0.5);
+    background-color: rgba(68, 65, 63, 0.5);
     -webkit-transition: all 0.8s ease;
     transition: all 0.8s ease;
     -webkit-transform: scale(0);
