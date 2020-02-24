@@ -613,9 +613,18 @@ h3 {
 .column-contents:hover {
   opacity: 0.7; }
 
+.column-img {
+  overflow: hidden; }
+
 .column-content img {
+  display: block;
   width: 100%;
-  height: auto; }
+  height: auto;
+  transition-duration: 0.3s; }
+
+.column-content img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s; }
 
 .column-content h3 {
   width: 80%;
